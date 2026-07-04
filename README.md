@@ -27,9 +27,9 @@ mvn clean javafx:run
 
 ============================================================================
 
-## Application Roles
+# Application Roles
 
-# Barista
+## Barista
 
 The Barista role is used to manage menu data, stock data, and incoming customer orders.
 
@@ -40,7 +40,7 @@ Available pages:
 - Stock
 - Orders
 
-# Cashier
+## Cashier
 
 The Cashier role is used to create customer orders and process payments.
 
@@ -50,7 +50,7 @@ Available pages:
 - Orders
 - Report
 
-# Owner
+## Owner
 
 The Owner role is used to review stock notifications, review new menu submissions, and view reports.
 
@@ -68,7 +68,7 @@ owner123
 
 # Barista Features
 
-# Menu Page
+## Menu Page
 
 The Menu page is used by the barista to submit new menu items.
 
@@ -84,7 +84,7 @@ Features:
 New menu items will not appear directly in the Cashier Menu.
 They must be approved by the Owner first.
 
-# Menu List Page
+## Menu List Page
 
 The Menu List page displays saved menu data.
 
@@ -97,7 +97,7 @@ Features:
 - Delete all menu items with confirmation
 - Display menu status such as Approved, Pending Approval, and Rejected
 
-# Stock Page
+## Stock Page
 
 The Stock page is used to check and manage inventory data.
 
@@ -111,7 +111,7 @@ Features:
 
 Stock notifications sent by the barista will appear in the Owner Review Stock page.
 
-# Orders Page
+## Orders Page
 
 The Orders page is used to handle orders sent from the cashier.
 
@@ -126,7 +126,7 @@ Features:
 - Display customer name, product, order date, and order status
 - Cashier Features
 
-# Menu Page
+## Menu Page
 
 The Cashier Menu page is used to create customer orders.
 
@@ -149,7 +149,7 @@ Available filters:
 
 Only menu items approved by the Owner will appear in the Cashier Menu.
 
-# Orders Page
+## Orders Page
 
 The Cashier Orders page displays orders created by the cashier.
 
@@ -160,11 +160,11 @@ Features:
 - Display ordered items
 - Track order status
 
-# Report Page
+## Report Page
 
 The Cashier Report page is prepared for cashier-related reports.
 
-==============================================================================
+============================================================================
 
 The Owner tab requires a password before accessing owner features.
 
@@ -176,7 +176,7 @@ The password can be changed in:
 
 src/main/java/interva/sambikopi/controller/MainController.java
 
-# Review Stock Page
+## Review Stock Page
 
 The Review Stock page displays stock notifications sent by the barista.
 
@@ -198,7 +198,7 @@ Features:
 If a menu item is approved, it will appear in the Cashier Menu page.
 If a menu item is rejected, it will not appear in the Cashier Menu page.
 
-# View Report Page
+## View Report Page
 
 The View Report page displays simple business reports.
 
