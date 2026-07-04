@@ -25,7 +25,7 @@ Run the project using Maven:
 
 mvn clean javafx:run
 
-==============================================================================
+============================================================================
 
 ## Application Roles
 
@@ -66,7 +66,7 @@ Default owner password:
 
 owner123
 
-## Barista Features
+# Barista Features
 
 # Menu Page
 
